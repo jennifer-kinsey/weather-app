@@ -3,15 +3,17 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="build/css/vendor.css">
- <script src="build/js/vendor.min.js"></script>
- <script type="text/javascript" src="build/js/app.js"></script>
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
     <title>Weather App!</title>
   </head>
   <body>
-      <label for="city">Enter a city:</label>
-      <input id="city" type="text">
-      <button class="btn btn-info" id="weather-location">Submit</button>
-    <div class="showWeather"></div>
+    <label for="location">Enter a city:</label>
+    <input id="location" type="text">
+    <button class="btn btn-info" id="weather-location">Submit</button>
+    <div class="showDescription"></div>
+    <div class="showTemperatures"></div>
+    <div class="showHumidity"></div>
     <h4>The current time is:</h4>
     <h4 id="time"></h4>
   </body>
