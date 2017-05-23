@@ -1,0 +1,27 @@
+{
+  "name": "weather",
+  "description": "Weather App",
+  "main": "index.js",
+  "authors": [
+    "Monique and Kinsey"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "weather",
+    "awesome"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.18.1"
+  }
+}
