@@ -1,7 +1,7 @@
 var Weather = require('./../js/weather.js').weatherModule;
 
 var displayDescription = function(city, descriptionData) {
-  $('.showDescription').text("You can expect " + descriptionData + " today in " + city);
+  $('.showDescription').text("You can expect " + descriptionData + " today in " + city + ".");
 }
 
 var displayTemperatures = function(city, currentTemp) {

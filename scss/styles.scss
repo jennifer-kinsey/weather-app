@@ -1,0 +1,36 @@
+$unicorn : url('./../../img/background.jpg');
+
+#location {
+  background: black;
+  border: 3px solid yellow;
+  padding: 40px 80px;
+  font-size: 3em;
+  text-align: center;
+}
+
+.btn {
+  margin: 20px 0;
+  padding: 25px 60px;
+  font-size: 2em;
+}
+
+body {
+    background-image: $unicorn;
+    background-size:cover;
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+label {
+  font-size: 3em;
+}
+
+div{
+  font-size: 2em;
+}
+
+input {
+  color: yellow;
+  font-family: 'Barrio', cursive;
+}
